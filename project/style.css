@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Unbounded&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Unbounded&family=Varela+Round&display=swap');
+body{
+    background-color: rgb(243, 217, 191);
+}
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+nav ul li{
+    padding: 0 12px;
+}
+
+nav{
+  font-family: 'Ubuntu',sans-serif;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 40px;
+    background-color: black;
+    color: white;
+}
+nav ul li{
+   padding: 0px 10px;
+}
+.brand img{
+    width: 40px;
+    padding: 0 5px;
+}
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+.container{
+    font-size: small;
+    min-height: 79vh;
+    background-color: black;
+    color: white;
+    font-family: 'Varela Round',sans-serif;
+    display: flex;
+    width: 80%;
+    margin: 8px auto;
+    border-radius: 8px;
+    padding: 8px;
+    background-image: url('22.jpeg');
+    background-size: 700px 550px;
+    background-position-x: right;
+    background-repeat: no-repeat;
+}
+.bottom{
+    position: sticky;
+    height: 68px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.icons{
+     margin-top: 4px;
+     size: 80%;
+}
+.icons i{
+    cursor: pointer;
+}
+#progressbar{
+     width: 75vh;
+     margin-top: 0.5%;
+}
+
+.songitem{
+    height: 40px;
+    display: flex;
+    background-color: white;
+    /* width: 70%; */
+    color: black;
+    margin: 8px 0px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 12px;
+}
+.songitem img{
+    width: 40px;
+    margin: 0px 8px;
+    border-radius: 34px;
+}
+.timestamp{
+    margin: 0px 12px;
+    cursor: pointer;
+}
+
+.songitemcontainer{
+    margin-top: 40px;
+}
+
+.songinfo{
+    position: absolute;
+    left: 9vw;
+}
+
+.songinfo img{
+   opacity: 0;
+   transition: opacity 0.4s ease-in;
+}
